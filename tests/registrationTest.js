@@ -7,8 +7,7 @@ async function registration(){
     var baseurl = 'https://www.c-and-a.com/es/es/shop';
     var name = 'Samuel';
     var lastNameame = 'Mahieu';
-    //Change the address mail
-    var email = 'Venceptant45@einrot.com';
+    var email = 'Glarld@teleworm.us';
     var password = 'S@mu3l31'
     var closeSessionButton = "//body/div[@id='root']/div[5]/div[1]/button[1]";
 
@@ -23,6 +22,5 @@ async function registration(){
 
     //Verifying that the registration went throught
     await accountPage.verifyLogin(closeSessionButton);
-
 }
 registration();
