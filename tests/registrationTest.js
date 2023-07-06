@@ -8,7 +8,7 @@ async function registration(){
     var name = 'Samuel';
     var lastNameame = 'Mahieu';
     //Change the address mail
-    var email = 'Outte1948@gustr.com';
+    var email = 'Venceptant45@einrot.com';
     var password = 'S@mu3l31'
     var closeSessionButton = "//body/div[@id='root']/div[5]/div[1]/button[1]";
 
