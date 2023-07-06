@@ -5,7 +5,6 @@ const homepage = require('../pages/homepage');
 class AccountPage extends BasePage{
 
     async verifyLogin(element){
-      var closeSessionButton = "//body/div[@id='root']/div[5]/div[1]/button[1]";
 
       try{
         this.isElementVisible(element);
